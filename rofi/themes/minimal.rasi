@@ -1,0 +1,13 @@
+* {
+    bg:           #211e2a;
+    fg:           #eeeeee;
+    blue:         #6099c0;
+    white:        #bbbbbb;
+    red:          #de6e7c;
+    magenta:      #b279a7;
+    yellow:       #b77e64;
+    green:        #819b69;
+    cyan:         #66a5ad;
+
+    font: "LigaSFMonoNerdFont 13";
+}

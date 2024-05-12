@@ -1,0 +1,21 @@
+vim.g.mapleader = " "
+
+vim.opt.hlsearch = true
+vim.opt.undofile = true
+vim.opt.ignorecase = true
+vim.opt.smartcase = true
+vim.opt.updatetime = 300
+vim.opt.backspace = "2"
+vim.opt.showcmd = true
+vim.opt.laststatus = 3
+vim.opt.cursorline = true
+vim.opt.number = false
+vim.opt.relativenumber = false
+vim.opt.tabstop = 2
+vim.opt.shiftwidth = 2
+vim.opt.shiftround = true
+vim.opt.expandtab = true
+vim.opt.scrolloff = 10
+vim.opt.termguicolors = true
+vim.opt.splitbelow = true
+vim.opt.splitright = true

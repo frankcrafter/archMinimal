@@ -1,0 +1,99 @@
+configuration {
+    modi: "drun";
+    show-icons: true;
+    icon-theme: "Papirus";
+    terminal: "alacritty";
+    drun-display-format: "{icon} {name}";
+    location: 0;
+    yoffset: -375;
+    disable-history: true;
+    hide-scrollbar: true;
+    display-drun: "   Search  ";
+    display-run: "   Run ";
+    display-window: "   Window ";
+    /* display-Network: " 󰤨  Network"; */
+    sidebar-mode: false;
+}
+
+@theme "minimal"
+
+element-text, element-icon , mode-switcher {
+    background-color: inherit;
+    text-color:       inherit;
+}
+
+window {
+    width: 650px;
+    height: 150px;
+    border-radius: 0px;
+    border: 0px;
+    border-color: @white;
+}
+
+mainbox {
+    background-color: @bg;
+}
+
+inputbar {
+    children: [prompt,entry];
+    background-color: @bg;
+    padding: 2px;
+}
+
+prompt {
+    background-color: @white;
+    border-radius: 5px;
+    padding: 10px;
+    text-color: @bg;
+    margin: 20px 0px 0px 20px;
+}
+
+textbox-prompt-colon {
+    expand: false;
+    str: ":";
+}
+
+entry {
+    padding: 10px;
+    margin: 20px 0px 0px 20px;
+    text-color: @white;
+    background-color: @bg;
+}
+
+listview {
+    border: 0px 0px 0px;
+    padding: 5px 10px 0px 10px;
+    margin: 10px 10px 10px 10px;
+    columns: 1;
+    background-color: @bg;
+}
+
+element {
+    padding: 10px;
+    background-color: @bg;
+    text-color: @fg  ;
+}
+
+element-icon {
+    size: 20px;
+}
+
+element selected {
+    background-color: @white ;
+    border-radius: 5px;
+    text-color: @bg  ;
+}
+
+button {
+    padding: 15px;
+    background-color: @fg;
+    vertical-align: 0.5; 
+    horizontal-align: 0.5;
+    margin: 20px 20px 20px 20px;
+}
+
+button selected {
+  background-color: @blue;
+  border-radius: 0px;
+  text-color: @bg;
+}
