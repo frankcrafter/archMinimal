@@ -6,9 +6,9 @@ configuration {
     drun-display-format: "{icon} {name}";
     location: 0;
     yoffset: -375;
-    disable-history: true;
-    hide-scrollbar: true;
-    display-drun: "   Search  ";
+    disable-history: false;
+    hide-scrollbar: false;
+    display-drun: "   Search ";
     display-run: "   Run ";
     display-window: "   Window ";
     /* display-Network: " 󰤨  Network"; */
@@ -23,11 +23,11 @@ element-text, element-icon , mode-switcher {
 }
 
 window {
-    width: 650px;
-    height: 150px;
+    width: 600px;
+    height: 150;
     border-radius: 0px;
     border: 0px;
-    border-color: @white;
+    border-color: @bg;
 }
 
 mainbox {
@@ -42,14 +42,14 @@ inputbar {
 
 prompt {
     background-color: @white;
-    border-radius: 5px;
+    border-radius: 2px;
     padding: 10px;
     text-color: @bg;
     margin: 20px 0px 0px 20px;
 }
 
 textbox-prompt-colon {
-    expand: false;
+    expand: true;
     str: ":";
 }
 
@@ -66,6 +66,7 @@ listview {
     margin: 10px 10px 10px 10px;
     columns: 1;
     background-color: @bg;
+    require-input: true;
 }
 
 element {
@@ -80,7 +81,7 @@ element-icon {
 
 element selected {
     background-color: @white ;
-    border-radius: 5px;
+    border-radius: 0px;
     text-color: @bg  ;
 }
 
