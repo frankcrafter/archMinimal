@@ -12,9 +12,9 @@ set $term alacritty
 # Autotiling
 exec_always --no-startup-id autotiling
 
-gaps inner 2
+gaps inner 1
 
-border_radius 3
+border_radius 4
 
 # Borders
 set $border_size 0

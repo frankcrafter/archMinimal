@@ -31,7 +31,7 @@ cyan    = '#2beede' #color.cyan300
 white   = '#fdf6e2' #color.base3
 
 [font]
-size = 9
+size = 9.5
 
 [font.normal]
 family = "LigaSFMonoNerdFont"
@@ -54,5 +54,5 @@ history = 10000
 multiplier = 10
 
 [window.padding]
-x = 3
+x = 2
 y = 2
