@@ -1,13 +1,15 @@
 * {
-    bg:           #211e2a;
-    fg:           #eeeeee;
+    bg:           #2c2e2f;
+    fg:           #dbe3f0;
+    black:        #6F7173;
     blue:         #6099c0;
-    white:        #bbbbbb;
+    white:        #404040;
     red:          #de6e7c;
     magenta:      #b279a7;
     yellow:       #b77e64;
     green:        #819b69;
     cyan:         #66a5ad;
+    transparent: rgba(0,0,0,0);
 
     font: "LigaSFMonoNerdFont 13";
 }

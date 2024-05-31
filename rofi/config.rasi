@@ -5,10 +5,10 @@ configuration {
     terminal: "alacritty";
     drun-display-format: "{icon} {name}";
     location: 0;
-    yoffset: -375;
+    yoffset: -250;
     disable-history: false;
     hide-scrollbar: false;
-    display-drun: "   Search ";
+    display-drun: "";
     display-run: "   Run ";
     display-window: "   Window ";
     /* display-Network: " 󰤨  Network"; */
@@ -24,10 +24,9 @@ element-text, element-icon , mode-switcher {
 
 window {
     width: 600px;
-    height: 150;
+    height: 135px;
     border-radius: 0px;
-    border: 0px;
-    border-color: @bg;
+    border: none;
 }
 
 mainbox {
@@ -35,17 +34,9 @@ mainbox {
 }
 
 inputbar {
-    children: [prompt,entry];
+    children: [prompt, entry];
     background-color: @bg;
-    padding: 2px;
-}
-
-prompt {
-    background-color: @white;
-    border-radius: 2px;
-    padding: 10px;
-    text-color: @bg;
-    margin: 20px 0px 0px 20px;
+    padding: 0px;
 }
 
 textbox-prompt-colon {
@@ -53,11 +44,21 @@ textbox-prompt-colon {
     str: ":";
 }
 
+prompt {
+    background-color: @bg;
+    border-radius: 2px;
+    padding: 10px;
+    text-color: @fg;
+    margin: 20px 0px 0px 20px;
+}
+
 entry {
     padding: 10px;
     margin: 20px 0px 0px 20px;
-    text-color: @white;
+    text-color: @fg;
     background-color: @bg;
+    placeholder: " Search";
+    placeholder-color: @black;
 }
 
 listview {
@@ -82,7 +83,7 @@ element-icon {
 element selected {
     background-color: @white ;
     border-radius: 0px;
-    text-color: @bg  ;
+    text-color: @fg  ;
 }
 
 button {
