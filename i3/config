@@ -14,7 +14,7 @@ exec_always --no-startup-id autotiling
 
 gaps inner 2
 
-border_radius 4
+border_radius 3
 
 # Borders
 set $border_size 0

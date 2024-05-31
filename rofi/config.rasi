@@ -23,10 +23,10 @@ element-text, element-icon , mode-switcher {
 }
 
 window {
-    width: 600px;
+    width: 650px;
     height: 135px;
-    border-radius: 0px;
-    border: none;
+    border-radius: 1px;
+    border: 1px;
 }
 
 mainbox {
@@ -82,7 +82,7 @@ element-icon {
 
 element selected {
     background-color: @white ;
-    border-radius: 0px;
+    border-radius: 5px;
     text-color: @fg  ;
 }
 
